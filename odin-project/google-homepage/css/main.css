@@ -20,7 +20,13 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 }
 
 .header li a {
+  display: inline-block;
+  margin-top: 8px;
   text-decoration: none;
+}
+
+.header li a:hover {
+  text-decoration: underline;
 }
 
 .header li a:visited {
@@ -70,13 +76,15 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 .search-buttons button{
   display: inline-block;
-  padding: .6em .9em .6em .9em;
+  padding: .8em 1em .6em 1em;
   margin: auto;
-  margin: 1.2em .7em 0 .7em;
-  background: #F0F0F0;
-  border: solid #F0F0F0 .1em;
-  border-radius: 5%;
-  color:#545454;
+  margin: 1.4em .8em 0 .8em;
+  background: #F2F2F2;
+  border: solid #F2F2F2 .1em;
+  border-radius: 3%;
+  color:#757575;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .search-buttons button:hover {
@@ -87,9 +95,9 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 #search-field {
   display: block;
   margin: auto;
-  margin-top: 1em;
-  width: 550px;
-  height: 20px;
+  margin-top: 1.6em;
+  width: 510px;
+  height: 30px;
 }
 
 .footer {
