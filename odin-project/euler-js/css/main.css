@@ -32,6 +32,7 @@ header h1 {
 
 .buttons button:hover {
   border: solid #747474 1px;
+  cursor: pointer;
 }
 
 main {
