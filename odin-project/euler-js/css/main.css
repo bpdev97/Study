@@ -52,6 +52,143 @@ main {
   background: white;
 }
 
+#prob-1 h1{
+  text-align: center;
+  margin: 30px 0 20px 0;
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+#prob-1 p {
+  padding: 0 20px 20px 20px;
+}
+
+#prob-1 .form {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#prob-1 .form p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+#prob-1 .form input {
+  margin: 0;
+}
+
+#prob-1 .form button {
+  padding: 7px 10px 7px 10px;
+  margin-left: 15px;
+  background: #499ff5;
+  color: white;
+  border: solid #F2F2F2 1px;
+  border-radius: 7%;
+}
+
+#prob-1 .form button:hover {
+  border: solid #747474 1px;
+  cursor: pointer;
+}
+
+#prob-2 {
+  display: none;
+}
+
+#prob-2 h1{
+  text-align: center;
+  margin: 30px 0 20px 0;
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+#prob-2 p {
+  padding: 0 20px 20px 20px;
+}
+
+#prob-2 .form {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#prob-2 .form p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+#prob-2 .form input {
+  margin: 0;
+}
+
+#prob-2 .form button {
+  padding: 7px 10px 7px 10px;
+  margin-left: 15px;
+  background: #499ff5;
+  color: white;
+  border: solid #F2F2F2 1px;
+  border-radius: 7%;
+}
+
+#prob-2 .form button:hover {
+  border: solid #747474 1px;
+  cursor: pointer;
+}
+
+#prob-3 {
+  display: none;
+}
+
+#prob-3 h1{
+  text-align: center;
+  margin: 30px 0 20px 0;
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+#prob-3 p {
+  padding: 0 20px 20px 20px;
+}
+
+#prob-3 .form {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#prob-3 .form p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+#prob-3 .form input {
+  margin: 0;
+}
+
+#prob-3 .form button {
+  padding: 7px 10px 7px 10px;
+  margin-left: 15px;
+  background: #499ff5;
+  color: white;
+  border: solid #F2F2F2 1px;
+  border-radius: 7%;
+}
+
+#prob-3 .form button:hover {
+  border: solid #747474 1px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 40px;
+  font-size: 40px;
+  color: #1655e3;
+  text-align: center;
+  font-weight: bold;
+}
+
+#result2 {
+  margin-top: 20px;
+}
+
 body {
   background-color: #f0f0f2;
 }
