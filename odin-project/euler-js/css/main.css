@@ -2,23 +2,71 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
 
 header {
-  height: 50px;
+  height: 60px;
   width: 100%;
-  border-bottom: 3px double grey;
+  background-color: #499ff5;
 }
 
 header h1 {
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
   font-size: 20px;
-  color: black;
+  color: white;
 }
 
-.problem {
+.buttons {
   display: inline-block;
-  border: 1px solid black;
-  border-radius: 10%;
-  height: 200px;
-  width: 32%;
-  margin: 10px 0px 0px 0px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.buttons button{
+  display: block;
+  margin: 10px 30px 20px 50px;
+  padding: 10px;
+  background: #1655e3;
+  color: white;
+  border: solid #F2F2F2 1px;
+  border-radius: 7%;
+}
+
+.buttons button:hover {
+  border: solid #747474 1px;
+}
+
+main {
+  display: block;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.prob-content {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 350px;
+  width: 600px;
+  border: 1px solid #d6d6d6;
+  border-radius: 1%;
+  background: white;
+}
+
+body {
+  background-color: #f0f0f2;
+}
+
+footer {
+  width: 100%;
+  height: 25px;
+  position: fixed;
+  bottom: 0;
+  background-color: #1d2120;
+}
+
+footer p {
+  float: right;
+  padding: 5px 15px 0 0;
+  color: #959595;
+  font-size: 15px;
+  font-family: Verdana, arial;
 }
