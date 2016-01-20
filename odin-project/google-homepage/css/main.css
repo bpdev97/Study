@@ -1,136 +1,182 @@
-.header {
-  padding-top: 1.3em;
-  padding-right: 1em;
-  font-family: arial;
-  list-style-type: none;
-  margin: 0px;
-  padding-bottom: 35px;
-  display: block;
+.header
+{
+    font-family: arial;
+
+    display: block;
+
+    margin: 0;
+    padding-top: 1.3em;
+    padding-right: 1em;
+    padding-bottom: 35px;
+
+    list-style-type: none;
 }
 
-.header li {
-  padding-left: .7em;
-  padding-right: .7em;
-  float: right;
-  display: inline-block;
-  font-size: .8em;
+.header li
+{
+    font-size: .8em;
+
+    display: inline-block;
+    float: right;
+
+    padding-right: .7em;
+    padding-left: .7em;
 }
 
-.header li a {
-  display: inline-block;
-  margin-top: 8px;
-  text-decoration: none;
+.header li a
+{
+    display: inline-block;
+
+    margin-top: 8px;
+
+    text-decoration: none;
 }
 
-.header li a:hover {
-  text-decoration: underline;
+.header li a:hover
+{
+    text-decoration: underline;
 }
 
-.header li a:visited {
-  text-decoration: none;
-  color: black;
+.header li a:visited
+{
+    text-decoration: none;
+
+    color: black;
 }
 
-#gplus:visited {
-  color: grey;
-  text-decoration: none;
+#gplus:visited
+{
+    text-decoration: none;
+
+    color: grey;
 }
 
-#portrait {
-  border-radius: 50%;
+#portrait
+{
+    border-radius: 50%;
 }
 
-#apps {
-  background-image: url("../img/icons.png");
-  background-size: 528px 68px;
-  background-position: -132px -38px;
-  height: 30px;
-  width: 30px;
+#apps
+{
+    width: 30px;
+    height: 30px;
+
+    background-image: url('../img/icons.png');
+    background-position: -132px -38px;
+    background-size: 528px 68px;
 }
 
-#notifications {
-  background-color: rgba(0, 0, 0, 0.55);
-  border-radius: 50%;
-  background-image: url("../img/icons.png");
-  background-size: 528px 68px;
-  background-position: -194px -21px;
-  height: 20px;
-  width: 20px;
-  margin-top: 5px;
+#notifications
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .55);
+    background-image: url('../img/icons.png');
+    background-position: -194px -21px;
+    background-size: 528px 68px;
 }
 
-.center {
-  text-align: center;
+.center
+{
+    text-align: center;
 }
 
-#logo {
-  display: block;
-  margin: auto;
-  padding-top: 7em;
-  height: 92px;
-  width: 272px;
+#logo
+{
+    display: block;
+
+    width: 272px;
+    height: 92px;
+    margin: auto;
+    padding-top: 7em;
 }
 
-.search-buttons button{
-  display: inline-block;
-  padding: .8em 1em .6em 1em;
-  margin: auto;
-  margin: 1.4em .8em 0 .8em;
-  background: #F2F2F2;
-  border: solid #F2F2F2 .1em;
-  border-radius: 3%;
-  color:#757575;
-  font-size: 13px;
-  font-weight: bold;
+.search-buttons button
+{
+    font-size: 13px;
+    font-weight: bold;
+
+    display: inline-block;
+
+    margin: auto;
+    margin: 1.4em .8em 0 .8em;
+    padding: .8em 1em .6em 1em;
+
+    color: #757575;
+    border: solid #f2f2f2 .1em;
+    border-radius: 3%;
+    background: #f2f2f2;
 }
 
-.search-buttons button:hover {
-  cursor: pointer;
-  border: solid #ccc .1em;
+.search-buttons button:hover
+{
+    cursor: pointer;
+
+    border: solid #ccc .1em;
 }
 
-#search-field {
-  display: block;
-  margin: auto;
-  margin-top: 1.6em;
-  width: 510px;
-  height: 30px;
+#search-field
+{
+    display: block;
+
+    width: 510px;
+    height: 30px;
+    margin: auto;
+    margin-top: 1.6em;
 }
 
-.footer {
-  position: fixed;
-  background:rgb(242, 242, 242);
-  width: 100%;
-  bottom: 0;
-  text-align: center;
-  height: 2.6em;
-  text-decoration: none;
-  font-family: arial;
+.footer
+{
+    font-family: arial;
+
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: 2.6em;
+
+    text-align: center;
+    text-decoration: none;
+
+    background: rgb(242, 242, 242);
 }
 
-.footer ul li {
-  padding: .8em .7em 0 .7em;
-  display:inline-block;
+.footer ul li
+{
+    display: inline-block;
+
+    padding: .8em .7em 0 .7em;
 }
 
-.footer ul li a {
-  font-size: .83em;
-  text-decoration: none;
-  color: grey;
+.footer ul li a
+{
+    font-size: .83em;
+
+    text-decoration: none;
+
+    color: grey;
 }
 
-.footer ul li a:hover {
-  text-decoration: underline;
+.footer ul li a:hover
+{
+    text-decoration: underline;
 }
 
-#footer-left {
-  margin-left: 1.2em;
-  display: inline-block;
-  float: left;
+#footer-left
+{
+    display: inline-block;
+    float: left;
+
+    margin-left: 1.2em;
 }
 
-#footer-right {
-  margin-right: 1.2em;
-  display: inline-block;
-  float: right;
+#footer-right
+{
+    display: inline-block;
+    float: right;
+
+    margin-right: 1.2em;
 }
