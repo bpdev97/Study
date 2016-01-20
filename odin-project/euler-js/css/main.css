@@ -1,207 +1,282 @@
-header {
-  height: 60px;
-  width: 100%;
-  background-color: #499ff5;
+header
+{
+    width: 100%;
+    height: 60px;
+
+    background-color: #499ff5;
 }
 
-header h1 {
-  text-align: center;
-  padding-top: 20px;
-  font-size: 20px;
-  color: white;
+header h1
+{
+    font-size: 20px;
+
+    padding-top: 20px;
+
+    text-align: center;
+
+    color: white;
 }
 
-.buttons {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 10px;
+.buttons
+{
+    display: inline-block;
+
+    margin-top: 10px;
+
+    vertical-align: top;
 }
 
-.buttons button{
-  display: block;
-  margin: 10px 30px 20px 50px;
-  padding: 10px;
-  background: #1655e3;
-  color: white;
-  border: solid #F2F2F2 1px;
-  border-radius: 7%;
+.buttons button
+{
+    display: block;
+
+    margin: 10px 30px 20px 50px;
+    padding: 10px;
+
+    color: white;
+    border: solid #f2f2f2 1px;
+    border-radius: 7%;
+    background: #1655e3;
 }
 
-.buttons button:hover {
-  border: solid #747474 1px;
-  cursor: pointer;
+.buttons button:hover
+{
+    cursor: pointer;
+
+    border: solid #747474 1px;
 }
 
-main {
-  display: block;
-  margin-top: 40px;
-  width: 100%;
+main
+{
+    display: block;
+
+    width: 100%;
+    margin-top: 40px;
 }
 
-.prob-content {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  height: 350px;
-  width: 600px;
-  border: 1px solid #d6d6d6;
-  border-radius: 1%;
-  background: white;
+.prob-content
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 600px;
+    height: 350px;
+
+    vertical-align: top;
+
+    border: 1px solid #d6d6d6;
+    border-radius: 1%;
+    background: white;
 }
 
-#prob-1 h1{
-  text-align: center;
-  margin: 30px 0 20px 0;
-  text-decoration: underline;
-  font-size: 17px;
+#prob-1 h1
+{
+    font-size: 17px;
+
+    margin: 30px 0 20px 0;
+
+    text-align: center;
+    text-decoration: underline;
 }
 
-#prob-1 p {
-  padding: 0 20px 20px 20px;
+#prob-1 p
+{
+    padding: 0 20px 20px 20px;
 }
 
-#prob-1 .form {
-  text-align: center;
-  margin-top: 10px;
+#prob-1 .form
+{
+    margin-top: 10px;
+
+    text-align: center;
 }
 
-#prob-1 .form p {
-  display: inline-block;
-  font-weight: bold;
+#prob-1 .form p
+{
+    font-weight: bold;
+
+    display: inline-block;
 }
 
-#prob-1 .form input {
-  margin: 0;
+#prob-1 .form input
+{
+    margin: 0;
 }
 
-#prob-1 .form button {
-  padding: 7px 10px 7px 10px;
-  margin-left: 15px;
-  background: #499ff5;
-  color: white;
-  border: solid #F2F2F2 1px;
-  border-radius: 7%;
+#prob-1 .form button
+{
+    margin-left: 15px;
+    padding: 7px 10px 7px 10px;
+
+    color: white;
+    border: solid #f2f2f2 1px;
+    border-radius: 7%;
+    background: #499ff5;
 }
 
-#prob-1 .form button:hover {
-  border: solid #747474 1px;
-  cursor: pointer;
+#prob-1 .form button:hover
+{
+    cursor: pointer;
+
+    border: solid #747474 1px;
 }
 
-#prob-2 {
-  display: none;
+#prob-2
+{
+    display: none;
 }
 
-#prob-2 h1{
-  text-align: center;
-  margin: 30px 0 20px 0;
-  text-decoration: underline;
-  font-size: 17px;
+#prob-2 h1
+{
+    font-size: 17px;
+
+    margin: 30px 0 20px 0;
+
+    text-align: center;
+    text-decoration: underline;
 }
 
-#prob-2 p {
-  padding: 0 20px 20px 20px;
+#prob-2 p
+{
+    padding: 0 20px 20px 20px;
 }
 
-#prob-2 .form {
-  text-align: center;
-  margin-top: 10px;
+#prob-2 .form
+{
+    margin-top: 10px;
+
+    text-align: center;
 }
 
-#prob-2 .form p {
-  display: inline-block;
-  font-weight: bold;
+#prob-2 .form p
+{
+    font-weight: bold;
+
+    display: inline-block;
 }
 
-#prob-2 .form input {
-  margin: 0;
+#prob-2 .form input
+{
+    margin: 0;
 }
 
-#prob-2 .form button {
-  padding: 7px 10px 7px 10px;
-  margin-left: 15px;
-  background: #499ff5;
-  color: white;
-  border: solid #F2F2F2 1px;
-  border-radius: 7%;
+#prob-2 .form button
+{
+    margin-left: 15px;
+    padding: 7px 10px 7px 10px;
+
+    color: white;
+    border: solid #f2f2f2 1px;
+    border-radius: 7%;
+    background: #499ff5;
 }
 
-#prob-2 .form button:hover {
-  border: solid #747474 1px;
-  cursor: pointer;
+#prob-2 .form button:hover
+{
+    cursor: pointer;
+
+    border: solid #747474 1px;
 }
 
-#prob-3 {
-  display: none;
+#prob-3
+{
+    display: none;
 }
 
-#prob-3 h1{
-  text-align: center;
-  margin: 30px 0 20px 0;
-  text-decoration: underline;
-  font-size: 17px;
+#prob-3 h1
+{
+    font-size: 17px;
+
+    margin: 30px 0 20px 0;
+
+    text-align: center;
+    text-decoration: underline;
 }
 
-#prob-3 p {
-  padding: 0 20px 20px 20px;
+#prob-3 p
+{
+    padding: 0 20px 20px 20px;
 }
 
-#prob-3 .form {
-  text-align: center;
-  margin-top: 10px;
+#prob-3 .form
+{
+    margin-top: 10px;
+
+    text-align: center;
 }
 
-#prob-3 .form p {
-  display: inline-block;
-  font-weight: bold;
+#prob-3 .form p
+{
+    font-weight: bold;
+
+    display: inline-block;
 }
 
-#prob-3 .form input {
-  margin: 0;
+#prob-3 .form input
+{
+    margin: 0;
 }
 
-#prob-3 .form button {
-  padding: 7px 10px 7px 10px;
-  margin-left: 15px;
-  background: #499ff5;
-  color: white;
-  border: solid #F2F2F2 1px;
-  border-radius: 7%;
+#prob-3 .form button
+{
+    margin-left: 15px;
+    padding: 7px 10px 7px 10px;
+
+    color: white;
+    border: solid #f2f2f2 1px;
+    border-radius: 7%;
+    background: #499ff5;
 }
 
-#prob-3 .form button:hover {
-  border: solid #747474 1px;
-  cursor: pointer;
+#prob-3 .form button:hover
+{
+    cursor: pointer;
+
+    border: solid #747474 1px;
 }
 
-.result {
-  margin-top: 40px;
-  font-size: 40px;
-  color: #1655e3;
-  text-align: center;
-  font-weight: bold;
+.result
+{
+    font-size: 40px;
+    font-weight: bold;
+
+    margin-top: 40px;
+
+    text-align: center;
+
+    color: #1655e3;
 }
 
-#result2 {
-  margin-top: 20px;
+#result2
+{
+    margin-top: 20px;
 }
 
-body {
-  background-color: #f0f0f2;
+body
+{
+    background-color: #f0f0f2;
 }
 
-footer {
-  width: 100%;
-  height: 25px;
-  position: fixed;
-  bottom: 0;
-  background-color: #1d2120;
+footer
+{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: 25px;
+
+    background-color: #1d2120;
 }
 
-footer p {
-  float: right;
-  padding: 5px 15px 0 0;
-  color: #959595;
-  font-size: 15px;
-  font-family: Verdana, arial;
+footer p
+{
+    font-family: Verdana, arial;
+    font-size: 15px;
+
+    float: right;
+
+    padding: 5px 15px 0 0;
+
+    color: #959595;
 }
