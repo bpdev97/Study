@@ -5,8 +5,20 @@ $(document).ready(function(){
 
   //change ePixel color on mouseenter
   $(document).on('mouseenter','.e-pixel',function(){
-    $(this).css({'background-color': 'black'})
-  })
+    var caller = $(this);
+    //get opa data value
+    var cOpacity = caller.data('opa');
+    if(cOpacity === 0){
+      caller.css({'background-color': 'black',
+                   'opacity' : '.1'});
+      caller.data('opa',.1);
+    }
+    //increment opacity
+    else {
+      caller.data('opa',cOpacity + .1);
+      caller.css('opacity' , cOpacity + .1);
+    }
+  });
 
   //Clear grid when cButton is clicked
   $('#cButton').click(clearGrid);
@@ -22,7 +34,7 @@ $(document).ready(function(){
 function createGrid(gSize){
   var pSize = 375/gSize + 'px';
   var $rDiv = $('<div class="e-column"></div>');
-  var $ePixel = $('<div class="e-pixel"></div>');
+  var $ePixel = $('<div class="e-pixel" data-opa="0"></div>');
   $rDiv.css({'height' : pSize});
   $ePixel.css({'height' : pSize,
                'width' : pSize,
