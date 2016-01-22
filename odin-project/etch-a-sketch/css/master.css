@@ -24,9 +24,24 @@
     height: 525px;
     margin: 20px auto;
 
+    text-align: center;
+
     border: 3px #1b7a4d solid;
     border-radius: 2.5%;
     background-color: #28a268;
+}
+
+.es p
+{
+    font-family: arial;
+    font-size: 35px;
+    font-weight: bold;
+
+    display: inline-block;
+
+    padding-top: 12px;
+
+    color: white;
 }
 
 .es #screen
@@ -56,11 +71,12 @@
 
 .es #knob-l #marker-l
 {
-  margin: 1.5px auto;
-  width: 5px;
-  height: 15px;
-  background-color: #5b5b5b;
-  border-radius: 3px;
+    width: 5px;
+    height: 15px;
+    margin: 1.5px auto;
+
+    border-radius: 3px;
+    background-color: #5b5b5b;
 }
 
 .es #knob-r
@@ -79,11 +95,12 @@
 
 .es #knob-r #marker-r
 {
-  margin: 1.5px auto;
-  width: 5px;
-  height: 15px;
-  background-color: #5b5b5b;
-  border-radius: 3px;
+    width: 5px;
+    height: 15px;
+    margin: 1.5px auto;
+
+    border-radius: 3px;
+    background-color: #5b5b5b;
 }
 
 .settings
