@@ -4,7 +4,7 @@ $(document).ready(function(){
   createGrid(gSize);
 
   //change ePixel color on mouseenter
-  $(document).on('mouseenter','.e-pixel',function(event){
+  $(document).on('mouseenter','.e-pixel',function(){
     $(this).css({'background-color': 'black'})
   })
 
