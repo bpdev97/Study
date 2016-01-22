@@ -54,6 +54,15 @@
     background-color: white;
 }
 
+.es #knob-l #marker-l
+{
+  margin: 1.5px auto;
+  width: 5px;
+  height: 15px;
+  background-color: #5b5b5b;
+  border-radius: 3px;
+}
+
 .es #knob-r
 {
     display: inline-block;
@@ -66,6 +75,15 @@
     border: 3px solid #989898;
     border-radius: 100%;
     background-color: white;
+}
+
+.es #knob-r #marker-r
+{
+  margin: 1.5px auto;
+  width: 5px;
+  height: 15px;
+  background-color: #5b5b5b;
+  border-radius: 3px;
 }
 
 .settings
