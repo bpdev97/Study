@@ -70,68 +70,74 @@
 
 .settings
 {
-  width: 700px;
-  height: 100px;
-  background-color: #19659c;
-  border: 3px solid #104f7d;
-  border-radius: 15px;
-  margin: 10px auto;
-  text-align: center;
+    width: 700px;
+    height: 100px;
+    margin: 10px auto;
+
+    text-align: center;
+
+    border: 3px solid #104f7d;
+    border-radius: 15px;
+    background-color: #19659c;
 }
 
 .settings h2
 {
-  padding-top: 5px;
-  color: white;
+    padding-top: 5px;
+
+    color: white;
 }
 
 .settings #sDivider
 {
-  width: 100%;
-  height: 1px;
-  background-color: #0c395b;
-  margin-top: 5px;
+    width: 100%;
+    height: 1px;
+    margin-top: 5px;
+
+    background-color: #0c395b;
 }
 
 .gSize
 {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .gSize p
 {
-  display: inline-block;
-  color: white;
+    display: inline-block;
+
+    color: white;
 }
 
 .gSize #gSizeD
 {
-  width: 120px;
+    width: 120px;
 }
 
 .settings button
 {
-  padding: 1.5px 8px 1.5px 8px;
-  border: solid #f2f2f2  1.5px;
-  border-radius: 3%;
-  background: #f2f2f2;
+    padding: 1.5px 8px 1.5px 8px;
+
+    border: solid #f2f2f2  1.5px;
+    border-radius: 3%;
+    background: #f2f2f2;
 }
 
 .settings button:hover
 {
-  cursor: pointer;
+    cursor: pointer;
 
-  border: solid #ccc 1.5px;
+    border: solid #ccc 1.5px;
 }
 
 .gSize button
 {
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
 #cButton
 {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .footer
